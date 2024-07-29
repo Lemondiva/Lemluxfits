@@ -1,0 +1,12 @@
+// script.js
+
+// Print a message to the console
+console.log("Welcome to lemsluxfit");
+
+// Function to display a greeting message
+function displayGreeting() {
+  alert("Welcome to lemsluxfit");
+}
+
+// Call the function when the page loads
+window.onload = displayGreeting;
